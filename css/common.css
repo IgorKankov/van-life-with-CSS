@@ -1,0 +1,36 @@
+:root {
+    font-family: Helvetica, sans-serif;
+    background-color: #ebebeb;
+    color: #021f54;
+    scroll-behavior: smooth;
+}
+body {
+ max-width: 100%;
+ margin: auto;
+}
+h1, h2, p, div, nav, header, footer {
+    margin: 0;
+    padding: 0;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul li {
+    list-style-type: none;
+}
+.navigation ul li a {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#heading {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.information {
+    font-size: 18px;
+}

@@ -1,0 +1,27 @@
+#main-page {
+    background-image: url(../img/van-for-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 650px;
+}
+#title{
+    font-family: Helvetica, sans-serif;
+    font-size: 26px;
+    color: #021f54;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#tagline {
+    font-family: Helvetica, sans-serif;
+    font-size: 26px;
+    color: #ebebeb;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
