@@ -7,14 +7,6 @@
     flex-direction: column;
     min-height: 650px;
 }
-#title{
-    font-family: Helvetica, sans-serif;
-    font-size: 26px;
-    color: #021f54;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 #tagline {
     font-family: Helvetica, sans-serif;
     font-size: 26px;
@@ -24,4 +16,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    min-height: 650px;
+    margin: 0 26px 26px 0;
 }
