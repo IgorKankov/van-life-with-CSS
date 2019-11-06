@@ -33,6 +33,7 @@ nav {
     list-style-type: none;
 }
 .navigation a {
+    color: #021f54;
     font-size: 22px;
     text-transform: uppercase;
     font-weight: bold;

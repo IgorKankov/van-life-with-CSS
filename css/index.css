@@ -5,7 +5,7 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    min-height: 650px;
+     min-height: 650px;
 }
 #tagline {
     font-family: Helvetica, sans-serif;
