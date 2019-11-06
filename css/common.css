@@ -4,7 +4,7 @@
     color: #021f54;
 }
 body {
- max-width: 100%;
+ width: 980px;
  margin: auto;
 }
 h1, h2, p, div, nav, header, footer {
@@ -16,7 +16,6 @@ h1, h2, p, div, nav, header, footer {
 }
 nav {
     display: flex;
-    justify-content: space-between;
 }
 #title{
     font-family: Helvetica, sans-serif;
@@ -27,10 +26,13 @@ nav {
 }
 .navigation .menu {
     display: flex;
-    margin: 26px 26px 0 0;
+    justify-content: space-between;
+    margin-top: 26px;
+
 }
 .navigation li {
     list-style-type: none;
+
 }
 .navigation a {
     color: #021f54;
@@ -55,12 +57,15 @@ nav {
     margin: 35px 0 35px 0;
 }
 .content {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 35px;
+    margin: 0 30px 0 30px;
+
 }
 .information {
     font-size: 18px;
-    max-width: 600px;
+
 }
 
 footer .social-networks {
