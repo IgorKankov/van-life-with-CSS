@@ -2,12 +2,11 @@
     background-image: url(../img/van-for-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center ;
     display: flex;
     justify-content: space-between;
     height: 650px;
-
-
+    max-width: 100%;
 }
 #tagline {
     font-family: Helvetica, sans-serif;
@@ -15,6 +14,6 @@
     color: #ebebeb;
     text-transform: uppercase;
     font-weight: bold;
-    flex-direction: row;
+    display: flex;
     align-self: flex-end;
 }

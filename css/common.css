@@ -6,6 +6,7 @@
 body {
  width: 980px;
  margin: auto;
+ padding: 0;
 }
 h1, h2, p, div, nav, header, footer {
     margin: 0;
@@ -14,8 +15,8 @@ h1, h2, p, div, nav, header, footer {
 .main-page {
     display: flex;
 }
-nav {
-    display: flex;
+.nav {
+    flex-direction: row;
 }
 #title{
     font-family: Helvetica, sans-serif;
@@ -23,12 +24,12 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     margin: 26px 0 0 26px;
+    justify-content: flex-start;
 }
 .navigation .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 26px;
-
 }
 .navigation li {
     list-style-type: none;
