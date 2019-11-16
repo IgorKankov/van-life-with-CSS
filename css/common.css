@@ -1,40 +1,67 @@
+
+@media(max-width: 550px) {
+    html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 :root {
     font-family: Helvetica, sans-serif;
     background-color: #ebebeb;
     color: #021f54;
 }
+
 body {
  width: 980px;
  margin: auto;
  padding: 0;
 }
-h1, h2, p, div, nav, header, footer {
+
+h1, h2, p, div, nav, header, footer, ul, li {
     margin: 0;
     padding: 0;
 }
+
 .main-page {
     display: flex;
+    justify-content: space-between;
+    flex-wrap:  wrap; 
 }
-.nav {
-    flex-direction: row;
+
+nav {
+    display: flex;
 }
+  
+
 #title{
     font-family: Helvetica, sans-serif;
     font-size: 26px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 26px 0 0 26px;
-    justify-content: flex-start;
+  
 }
-.navigation .menu {
-    display: flex;
-    justify-content: flex-end;
+
+.main-page .navigation  {
     margin-top: 26px;
+
+}
+.navigation ul {
+    padding: 26px 0 0 50px;
 }
 .navigation li {
     list-style-type: none;
-
+    display: inline;
+    
 }
+
 .navigation a {
     color: #021f54;
     font-size: 22px;
@@ -42,14 +69,14 @@ h1, h2, p, div, nav, header, footer {
     font-weight: bold;
     text-decoration: none;
     border-right: 3px solid #021f54;
-    padding: 0 26px 0 26px;
+    padding: 0 20px 0 20px;
 }
- a #contact {
-    border: none;
-}
+
+
 .navigation a:hover {
-    border-bottom: 3px solid #021f54;
+    text-decoration: underline;
 }
+
 #heading {
     font-size: 26px;
     text-transform: uppercase;
@@ -57,29 +84,36 @@ h1, h2, p, div, nav, header, footer {
     text-align: center;
     margin: 35px 0 35px 0;
 }
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 35px;
-    margin: 0 30px 0 30px;
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
 }
+
 .information {
     font-size: 18px;
-
+    margin-left: 35px;
 }
+.kinds-of-work li {
+    margin-left: 20px ;
+}
+
 
 footer .social-networks {
     display: flex;
     justify-content: center;
     margin: 35px 0 35px 0;
 }
+
 #facebook {
     margin-right:26px;
 }
+
 #telegram {
     margin-right:26px;
 }
+
 footer .copyright {
     display: flex;
     justify-content: center;

@@ -3,17 +3,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
-    display: flex;
-    justify-content: space-between;
     height: 650px;
     max-width: 100%;
+    
+}
+.navigation ul {
+    padding-top: 0;
 }
 #tagline {
+    display: flex;
+    flex-wrap: wrap;
     font-family: Helvetica, sans-serif;
     font-size: 26px;
     color: #ebebeb;
     text-transform: uppercase;
     font-weight: bold;
-    display: flex;
     align-self: flex-end;
+    justify-content: flex-end;
+    margin: 0 25px 25px ;
+    padding-left: 600px;
 }
