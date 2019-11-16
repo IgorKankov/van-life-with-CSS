@@ -95,6 +95,9 @@ nav {
     font-size: 18px;
     margin-left: 35px;
 }
+h3 {
+    text-align: center;
+}
 .kinds-of-work li {
     margin-left: 20px ;
 }

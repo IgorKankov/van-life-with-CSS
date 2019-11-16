@@ -1,12 +1,12 @@
-document.querySelector('.get-first-pic').addEventListener('click', getFirstPic);
+document.querySelector('.get-variant').addEventListener('click', getVariant);
 
-function getFirstPic() {
+function getVariant() {
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            document.querySelector('.var-pic').innerHTML = xhr.responseText;
+            document.querySelector('.variants').innerHTML = xhr.responseText;
         }
     }
-    xhr.open('get', 'first-picture.html', true);
+    xhr.open('get', 'variant.html', true);
     xhr.send();
 }
