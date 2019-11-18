@@ -1,3 +1,5 @@
-div .engine {
-    display: inline;
+.information section button {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }

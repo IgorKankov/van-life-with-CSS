@@ -15,24 +15,24 @@
 		<nav>
 			<div id="title">van life</div>
 			<div class="navigation">
-			    <ul class="menu">
-				    <li>
-					    <a id="main" href="index.html">main</a>
-				    </li>
-				    <li>
-					    <a id="interior" href="interior.html">interior</a>
-				    </li>
-				    <li>
-					    <a id="exterior" href="exterior.html">exterior</a>
-				    </li>
-				    <li>
-					    <a id="mechanics" href="mechanics.html">mechanics</a>
-				    </li>
-				    <li>
-					    <a id="contact" href="contacts.html">contacts</a>
-				    </li>
-			    </ul>
-            </div>
+				<ul class="menu">
+					<li>
+						<a id="main" href="index.html">main</a>
+					</li>
+					<li>
+						<a id="interior" href="interior.html">interior</a>
+					</li>
+					<li>
+						<a id="exterior" href="exterior.html">exterior</a>
+					</li>
+					<li>
+						<a id="mechanics" href="mechanics.html">mechanics</a>
+					</li>
+					<li>
+						<a id="contact" href="contacts.html">contacts</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	<main>
@@ -46,19 +46,28 @@
 				<label class="name">
                 <p class="label-names">Name:</p> <input class="label-input" id="name-field" type="text" name="Full name" placeholder="Full Name">
                 </label>
-				<br><br> 
+				<br><br>
 				<label class="request">
                 <p class="label-names">Request:</p>  <input class="label-input" id="request-field" type="text" name="Request text" placeholder="Request Text">
                 </label>
 				<br><br>
 				<input id="button" type="submit" value="Submit">
-        </form>
-				<div class="map">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.4497613855847!2d24.012251415127643!3d49.81521144081335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78d8a943155%3A0xc24d82b62a91c2ae!2z0YPQuy4g0JDQutCw0LTQtdC80LjQutCwINCb0LDQt9Cw0YDQtdC90LrQviwg0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1sru!2sua!4v1572719639074!5m2!1sru!2sua"
-						width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-				</div>
+            </form>
+			<div class="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.4497613855847!2d24.012251415127643!3d49.81521144081335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78d8a943155%3A0xc24d82b62a91c2ae!2z0YPQuy4g0JDQutCw0LTQtdC80LjQutCwINCb0LDQt9Cw0YDQtdC90LrQviwg0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1sru!2sua!4v1572719639074!5m2!1sru!2sua"
+					width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
 		</div>
+		<section>
+            <h3>Client Notes</h3>
+            <form>
+                <textarea cols="137" rows="10">
+                </textarea>
+                <input type="submit" value="save">
+                <input class="load" type="button" value="load">
+            </form>
+		</section>
 	</main>
 	<footer>
 		<div class="social-networks">
@@ -73,6 +82,7 @@
 			<p>&copy; Kan'kov Igor 2019</p>
 		</div>
 	</footer>
+    <script src="js/contacts.js"></script>
 </body>
 
 </html>
