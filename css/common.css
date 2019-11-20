@@ -12,6 +12,7 @@ h1, h2, h3, p, div, nav, header, footer, ul, li, section, main {
 body {
     width: 980px;
     margin: auto;
+    background-color:  #ebebeb;
 }
 
 @media(max-width: 550px) {
@@ -27,12 +28,11 @@ body {
   }
 } 
 
-.main-page {
+ /* .main-page {
     display: flex;
     justify-content: space-between;
     flex-wrap:  wrap; 
-}
-
+}  */
 nav {
     display: flex;
     flex: wrap;
@@ -46,11 +46,11 @@ nav {
     font-weight: bold;
     margin: 26px 0 0 26px;
 }
-
+/* 
 .main-page .navigation  {
     margin-top: 26px;
 
-}
+} */
  .navigation ul {
     padding: 26px 0 0 50px;
 } 
@@ -67,7 +67,6 @@ nav {
     text-decoration: none;
     border-right: 3px solid #021f54;
     padding: 0 20px 0 20px;
-    width: 134px;
 }
 
 .navigation a:hover {
