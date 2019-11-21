@@ -13,7 +13,9 @@ label {
 #request-field{
     height: 60px;
 }
-
+.inf-form{
+    
+}
 @media(max-width: 550px) {
     .map iframe {
         width: 100%;

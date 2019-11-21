@@ -7,19 +7,25 @@
     max-width: 100%;
 }
 
+#title{
+    margin: 0;
+    padding-left: 25px;
+}
+
 @media(max-width: 550px){
     .main-page {
     background-image: url(../img/van-for-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
-    height: auto;
     max-width: 100%;
+    height: auto;
     }
 }
 
+
 .navigation ul {
-    padding-top: 0;
+    padding-top: 25px;
 }
 
 #tagline {
@@ -33,7 +39,7 @@
     align-self: flex-end;
     justify-content: flex-end;
     margin: 0 25px 25px ;
-    padding-left: 600px;
+    padding: 500px 0 0 570px;
 }
 
 @media(max-width: 550px) {

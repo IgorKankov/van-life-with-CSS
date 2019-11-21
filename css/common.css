@@ -28,7 +28,7 @@ body {
   }
 } 
 
- /* .main-page {
+/* .main-page {
     display: flex;
     justify-content: space-between;
     flex-wrap:  wrap; 
@@ -46,27 +46,19 @@ nav {
     font-weight: bold;
     margin: 26px 0 0 26px;
 }
-/* 
-.main-page .navigation  {
-    margin-top: 26px;
 
-} */
  .navigation ul {
     padding: 26px 0 0 50px;
 } 
-.navigation li {
-    list-style-type: none;
-    display: inline;
-}
 
-.navigation a {
+.navigation .nav-item {
     color: #021f54;
     font-size: 22px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
     border-right: 3px solid #021f54;
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
 }
 
 .navigation a:hover {
