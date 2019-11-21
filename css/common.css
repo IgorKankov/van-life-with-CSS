@@ -120,6 +120,11 @@ footer .social-networks {
     margin-right:26px;
 }
 
+.clock {
+    display: flex;
+    justify-content: center;
+}
+
 footer .copyright {
     display: flex;
     justify-content: center;
