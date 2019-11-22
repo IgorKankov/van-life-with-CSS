@@ -1,6 +1,6 @@
 const text = document.querySelector('textarea');
 
-document.querySelector('input[type=submit]')
+document.querySelector('.save')
     .addEventListener('click', saveText);
 function saveText(e) {
     e.preventDefault();
