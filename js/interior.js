@@ -10,3 +10,4 @@ function getVariant() {
     xhr.open('get', 'variant.html', true);
     xhr.send();
 }
+

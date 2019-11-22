@@ -13,6 +13,7 @@ body {
     width: 980px;
     margin: auto;
     background-color:  #ebebeb;
+    color:#021f54;
 }
 
 @media(max-width: 550px) {
@@ -28,14 +29,9 @@ body {
   }
 } 
 
-/* .main-page {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap:  wrap; 
-}  */
 nav {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
 }
   
 
@@ -52,7 +48,7 @@ nav {
 } 
 
 .navigation .nav-item {
-    color: #021f54;
+    color: #021f54 ;
     font-size: 22px;
     text-transform: uppercase;
     font-weight: bold;
